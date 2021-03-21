@@ -1,0 +1,213 @@
+/* set body margins to 0, height to 100%*/
+body {
+    margin: 0;
+    height: 100%;
+    font-family: Verdana;
+    font-size: 12px;
+}
+
+/* to-do class used to highlight elements that still need work */
+.to-do 
+{
+    border: 3px solid #e60000;
+    border-radius: 8px;
+    background-color: #ff8080; 
+    font-weight: 800;
+    padding: 20px;
+    line-height: 2;
+    text-align: center;
+    margin: 10px 0px;
+    overflow: auto;
+}
+
+/*style navigation bar: 50px high, full width, fixed at the top*/
+.navbar {
+    position: fixed;
+    top: 0px;
+    overflow: hidden;
+    height: 50px;
+    width: 100%;
+    background-color: #e6e6e6;
+}
+
+/* footer styling: just make sure it's 100% wide and text is center aligned horizontally and vertically (use padding) */
+.footer {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    padding: 24px 0px;
+}
+
+/* style navbar logo and image */
+#navbar-logo {
+    display: inline-block;
+}
+/* since navbar is 50px, let image be 40 and pad 5px on each side*/
+#navbar-logo > img {
+    padding: 5px;
+    height: 40px;
+}
+
+/* same styling applies to links in footer and navbar */
+/* style navbar links ( div floats to the right with <span>s nested with <a> elements) */
+#navbar-links {
+    display: inline-block; 
+    float: right; 
+    padding: 16px 0px;
+}
+/* for the span elements that contain actual links: pad left and right, and make font a little larger (110%)*/
+.footer > span,
+#navbar-links > span {
+    padding: 0px 16px;
+    font-size: 1.1em;
+}
+/* finally, style the links. make dark green text, don't change color for visited link */
+.footer > span > a,
+#navbar-links > span > a {
+    color: #155115;
+    text-decoration: none;
+}
+/* when users hovers over link in the navbar, jsut make text lighter to indicate possible action*/
+.footer > span > a:hover,
+#navbar-links > span > a:hover {
+    color: #49d049;
+}
+/* content div styling : pad at least 50px at the top to account for the navbar*/
+/* set width to 90% and center using auto margin to allow for blank space to left and right side*/
+.content {
+    margin: 0 auto;
+    padding-top: 50px;
+    width: 90%;
+    /* set high value for height to test sticky navbar and back to top function*/
+    height: 2000px;
+}
+
+
+/* info-div class used to style html elements such as div and p that contain information */
+.info-div
+{
+    border: 3px solid #bfbfbf;
+    border-radius: 8px;
+    background-color: #ffffff;
+    padding: 24px;
+    line-height: 2;
+    margin: 10px 0px;
+    overflow: auto;
+}
+
+
+/* how-to-div class is used to style contatiner that explain how to use ceratin features of the site */
+.how-to-div {
+    border: 3px solid #0099e6;
+    border-radius: 8px;
+    background-color: #e6f7ff; 
+    color: #00344d;
+    font-weight: 800;
+    padding: 0px 24px;
+    line-height: 1.5;
+    margin: 10px 0px;
+    overflow: auto;
+}
+/* style image that will appear in text floated to the left */
+.intext-image-left {
+    border-radius: 4px; 
+    float: left; 
+    margin: 0px 12px 4px 0px;
+}
+
+/* style image that will appear in text floated to the right */
+.intext-image-right {
+    border-radius: 4px; 
+    float: right; 
+    margin: 0px 0px 4px 12px;
+}
+
+/* credit source span, italic font and smaller size (80% of what the normal font size would be) */
+.source-credit {
+    font-size: 0.8em;
+    font-style: italic;
+}
+
+/* reactor/operator table contatiner, handle overflow (show scrollbars for x-axis overflow) and draw border */
+.table-container {
+    overflow-x: auto;
+    border-radius: 8px;
+    border: 3px solid #bfbfbf;
+    padding: 6px 16px 24px 16px;
+}
+
+/* style nuclear reactor/operator table */
+#nuclear-reactor-table,
+#nuclear-operator-table {
+    width: 100%;
+    text-align: left;
+    padding: 24px;
+    border-collapse: collapse;
+}
+
+/* bold bottom border for the table header row */
+#nuclear-reactor-table > thead > tr,
+#nuclear-operator-table > thead > tr {
+    border-bottom: 2px solid black;
+}
+
+/* style table header cells horizontal padding to space the text a bit*/
+#nuclear-reactor-table > thead > tr > th, 
+#nuclear-operator-table > thead > tr > th {
+    padding: 0px 6px;
+}
+
+/* less distinct dark gray bottom border for table content rows */
+#nuclear-reactor-table > tbody > tr,
+#nuclear-operator-table > tbody > tr {
+    border-bottom: 1px solid #bfbfbf;
+}
+
+/* striped table - even tr has light gray background while odd is white */
+#nuclear-reactor-table > tbody > tr:nth-child(even),
+#nuclear-operator-table > tbody > tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* style tr when users hovers mouse over it - change background color*/
+#nuclear-reactor-table > tbody > tr:hover,
+#nuclear-operator-table > tbody > tr:hover {
+    background-color: yellow;
+}
+
+/* style table cells for the body row, set vertical and horizontal padding to space the text a bit*/
+#nuclear-reactor-table > tbody > tr > td,
+#nuclear-operator-table > tbody > tr > td {
+    padding: 10px 6px;
+}
+
+/* overwrite the default link color, make it inherit color from the table*/
+#nuclear-reactor-table > tbody > tr > td > a,
+#nuclear-operator-table > tbody > tr > td > a {
+    color: inherit;
+}
+
+/* search input style */
+#nuclear-reactor-table-search {
+    min-width: 240px;
+    border-radius: 4px;
+    line-height: 1.5;
+    margin: 10px 0px;
+    padding: 4px;
+}
+
+/* style button that scrolls the page to the top if user clicks it */
+#button-up {
+    display: none;  /*Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 4px; /* Place the button at the bottom of the page */
+    right: 8px; /* Place the button 8px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    padding: 8px; /* Some padding */
+    border-radius: 6px; /* Rounded corners */
+    cursor: pointer; 
+    border: 2px solid #cc0000;
+    background-color: #ff3333;
+    color: #ffffff;
+    opacity: 0.8; /*make it a little transparent*/
+}
