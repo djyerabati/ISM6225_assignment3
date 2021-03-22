@@ -1,0 +1,143 @@
+C:\Users\ompra>cd C:\Users\ompra\source\repos\ISM6225_assignment3
+
+C:\Users\ompra\source\repos\ISM6225_assignment3>git log
+commit ce7c90fc66ec62426e9541ddc24b56302d2e2e16 (HEAD -> main, origin/main, origin/HEAD)
+Author: omprakashuppala <omprakash.uppalacan@gmail.com>
+Date:   Sun Mar 21 21:32:23 2021 -0400
+
+    Changes made in index.html
+
+commit 43d19256d6ff3ebe0ab2e96a7c2a57ae38cf8449
+Merge: b516d7a c295de5
+Author: Raghavendrasunkavalli <60832550+Raghavendrasunkavalli@users.noreply.github.com>
+Date:   Sun Mar 21 21:30:53 2021 -0400
+
+    Merge branch 'main' of https://github.com/djyerabati/ISM6225_assignment3 into main
+
+commit b516d7a17df23ce054d867a13825fa38775111f0
+Author: Raghavendrasunkavalli <60832550+Raghavendrasunkavalli@users.noreply.github.com>
+Date:   Sun Mar 21 21:30:35 2021 -0400
+
+    Added Buttons
+
+commit c295de510746e9e4c11b31baabdedc8db48a5fb0
+Author: omprakashuppala <omprakash.uppalacan@gmail.com>
+Date:   Sun Mar 21 21:28:59 2021 -0400
+
+    Changes made in About.html
+
+commit 7531c9d25d3041fe3fcfa47a3aa6347a0dedf903
+Author: Raghavendrasunkavalli <60832550+Raghavendrasunkavalli@users.noreply.github.com>
+Date:   Sun Mar 21 21:26:16 2021 -0400
+
+:...skipping...
+commit ce7c90fc66ec62426e9541ddc24b56302d2e2e16 (HEAD -> main, origin/main, origin/HEAD)
+Author: omprakashuppala <omprakash.uppalacan@gmail.com>
+Date:   Sun Mar 21 21:32:23 2021 -0400
+
+    Changes made in index.html
+
+commit 43d19256d6ff3ebe0ab2e96a7c2a57ae38cf8449
+Merge: b516d7a c295de5
+Author: Raghavendrasunkavalli <60832550+Raghavendrasunkavalli@users.noreply.github.com>
+Date:   Sun Mar 21 21:30:53 2021 -0400
+
+    Merge branch 'main' of https://github.com/djyerabati/ISM6225_assignment3 into main
+
+commit b516d7a17df23ce054d867a13825fa38775111f0
+Author: Raghavendrasunkavalli <60832550+Raghavendrasunkavalli@users.noreply.github.com>
+Date:   Sun Mar 21 21:30:35 2021 -0400
+
+    Added Buttons
+
+commit c295de510746e9e4c11b31baabdedc8db48a5fb0
+Author: omprakashuppala <omprakash.uppalacan@gmail.com>
+Date:   Sun Mar 21 21:28:59 2021 -0400
+
+    Changes made in About.html
+
+commit 7531c9d25d3041fe3fcfa47a3aa6347a0dedf903
+Author: Raghavendrasunkavalli <60832550+Raghavendrasunkavalli@users.noreply.github.com>
+Date:   Sun Mar 21 21:26:16 2021 -0400
+
+    Updated Button
+
+commit bbcef829f46eb931bbbc6704d0f7e5a477690da6
+Author: Raghavendrasunkavalli <60832550+Raghavendrasunkavalli@users.noreply.github.com>
+Date:   Sun Mar 21 21:15:31 2021 -0400
+
+    V1
+
+commit 7b8ac8e38081de41c83fbcb3a8331038547fac4d
+Merge: c19e50f 741ba68
+Author: Raghavendrasunkavalli <60832550+Raghavendrasunkavalli@users.noreply.github.com>
+Date:   Sun Mar 21 21:13:23 2021 -0400
+
+    commit
+
+commit c19e50f2da28440334f628e2d0700387cce956b4
+Author: Raghavendrasunkavalli <60832550+Raghavendrasunkavalli@users.noreply.github.com>
+Date:   Sun Mar 21 21:06:52 2021 -0400
+
+    V
+
+commit 741ba68a87aa8a2b8d39821475bc79dd6889c5ec
+Author: Raghavendrasunkavalli <60832550+Raghavendrasunkavalli@users.noreply.github.com>
+Date:   Sun Mar 21 20:50:39 2021 -0400
+
+    crud html
+
+commit 2e9655da7a1c5436553aa56eb2033a4e23556a71
+Merge: 47fecdd 512990b
+Author: omprakashuppala <omprakash.uppalacan@gmail.com>
+Date:   Sun Mar 21 20:34:25 2021 -0400
+
+    Added Data HTML file
+
+commit 47fecdd26695aec336516a82193c4bbcace284a1
+Author: omprakashuppala <omprakash.uppalacan@gmail.com>
+Date:   Sun Mar 21 20:33:07 2021 -0400
+
+    Updated Data HTML
+
+commit 512990b41bfd9cec444022d9e9b3540d156b94dd
+Author: Raghavendrasunkavalli <60832550+Raghavendrasunkavalli@users.noreply.github.com>
+Date:   Sun Mar 21 20:03:55 2021 -0400
+
+    v1
+
+commit ab859d05411741bea67e309e06fb3155ebf4e386
+Author: Raghavendrasunkavalli <60832550+Raghavendrasunkavalli@users.noreply.github.com>
+Date:   Sun Mar 21 19:56:49 2021 -0400
+
+    Pushing CRUD operations HTML file
+
+commit 1ee93cc7fea99c14b66e72af59b9bd65ceffb5a6 (origin/Sub)
+Author: djyerabati <61117784+djyerabati@users.noreply.github.com>
+Date:   Sun Mar 21 00:27:22 2021 -0400
+
+    Add files via upload
+
+commit 52cb53f20ba370a43128c4f25b73c706b0e428e3
+Author: djyerabati <61117784+djyerabati@users.noreply.github.com>
+Date:   Sun Mar 21 00:26:46 2021 -0400
+
+    Add files via upload
+
+commit 737b43d7667439a27342a6af83072d26b755441b
+Author: djyerabati <61117784+djyerabati@users.noreply.github.com>
+Date:   Sun Mar 21 00:25:38 2021 -0400
+
+    Add files via upload
+(END)
+
+
+
+
+
+
+
+
+
+
+
